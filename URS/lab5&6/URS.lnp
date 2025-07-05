@@ -1,0 +1,13 @@
+--cpu=Cortex-M4.fp.sp
+".\main.o"
+".\init.o"
+".\handlers.o"
+".\retarget.o"
+".\low_level_morse[4].o"
+".\retarget_io.o"
+".\startup_stm32f407xx.o"
+".\system_stm32f4xx.o"
+--strict --scatter ".\URS.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\URS.map" -o .\URS.axf

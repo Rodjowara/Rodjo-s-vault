@@ -1,0 +1,7 @@
+v 4
+file . "movavg4.vhd" "57f9f0915434e406e54142e55fe8517b59ee1b48" "20250618090108.434":
+  entity movavg4 at 1( 0) + 0 on 101;
+  architecture arch of movavg4 at 25( 604) + 0 on 102;
+file . "testbench_movavg4.vhd" "213bd7b77f20df775d840965523363717261cc3c" "20250618090108.360":
+  entity testbench_movavg4 at 1( 0) + 0 on 99;
+  architecture simulate of testbench_movavg4 at 7( 113) + 0 on 100;

@@ -1,0 +1,37 @@
+Program je napisan u programskom jeziku C++, uz pomoć biblioteke OpenSSL za enkripciju podataka i derivaciju ključa.
+
+Inicijalizacijom programa stvara se baza podataka i postavlja master šifra. Svakom ponovnom inicijalizacijom stvara se nova baza, stari se podatci brišu. Naredbom put u bazu se upisuje novi par web stranica-šifra, a naredbom get na ekran se ispisuje šifra za danu stranicu, pod uvjetom da je master šifra točna i da integritet baze nije narušen.
+
+Pri svakom pokretanju programa, unosi se master šifra iz koje se derivacijom ključa generiraju ključevi za enkripciju. IV i salt se generiraju slučajnim bajtovima pri svakoj enkripciji te se zapisuju na početak datoteke. Nakon njih se zapisuje enkriptirani sadržak cijele datoteke, koji sadrži parove web stranica - šifra. Master šifra se ne sprema ni u kojem obliku. 
+
+Integritet i autentičnost podataka očuvani su korištenjem HMAC-a. Kod dekripcije podataka, ponovno se izračunava HMAC, a u slučaju da je različit od onog spremljenog, podatci se odbacuju jer ih je netko izmijenio.
+
+Algoritam AES, kojim kriptiramo šifre i web stranice za koje ih spremamo, osigurava nam da napadač ne može otkriti nikakve informacije o šiframa, uključujući duljinu i međusobnu jednakost. Sakrivanje duljine šifri osigurano je korištenjem paddinga u procesu enkripcije. Derivacijom ključa iz master šifre generiramo ključeve za enkripciju te tako znatno otežavamo napade grubom silom. Ovime smo osigurali povjerljivost podataka.
+
+Upute za pokretanje programa (Linux):
+1: instalirati OpenSSL (ako već nije instaliran):
+	$ sudo apt update
+	$ sudo apt install openssl
+2: preko komandne linije, pozicionirati se unutar direktorija s izvornim kodom
+3: kompajlirati program:
+	$ g++ -o tajnik tajnik.cpp -lssl -lcrypto
+4: inicijalizirati program:
+	$ ./tajnik init <masterpassword>
+5: pokrenuti program s ulaznim parametrima:
+	$ ./tajnik <naredba> <masterpassword> <web_stranica> <šifra>
+	
+Primjer pokretanja programa:
+	$ ./tajnik init OsamuDazai
+	Password manager initialized.
+
+	$ ./tajnik put OsamuDazai www.f1.com fujiwara1234
+	Stored password for www.f1.com
+
+	$ ./tajnik get OsamuDazai www.f1.com
+	Password for www.f1.com is: fujiwara1234.
+
+	$ ./tajnik get OsmuDzi www.f1.com
+	Master password incorrect or integrity check failed.
+
+	$ ./tajnik get OsamuDazai www.f.com
+	No password found for www.f.com.

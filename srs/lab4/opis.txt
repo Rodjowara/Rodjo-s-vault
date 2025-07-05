@@ -1,0 +1,25 @@
+Za konfiguraciju vatrozida bilo je potrebno dopuniti datoteku FH.sh na sljedeći način:
+
+iptables -A <CHAINA> -s <IZVOR> -d <ODREDIŠTE> -p <PROTO> --dport <PORT> -j <AKCIJA>
+
+CHAINA -> FORWARD, INPUT, OUTPUT
+IZVOR -> IP adresa izvora
+ODREDIŠTE -> IP adresa odredišta
+PROTO -> protokol (tcp, udp)
+PORT -> na kojem portu se odobrava pristup
+AKCIJA -> ACCEPT, DROP, REJECT
+
+Nakon toga, pokrenu se dane skripte te se promet ispita naredbom nmap.
+
+Odgovori na pitanja:
+1. S kojih IP adresa se izvodi skeniranje?
+	10.26.163.1, 10.26.163.192
+
+2. Koje IP adrese se skenira?
+	10.26.163.236
+
+3. Koji skenirani TCP pristupi (portovi) su otvoreni?
+	443, 22
+
+4. Koji skenirani TCP pristupi su zatvoreni?
+	21, 25, 53, 23

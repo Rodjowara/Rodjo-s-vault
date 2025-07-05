@@ -1,0 +1,61 @@
+          LOAD s6, 00
+          INPUT s0, 10
+          ADD s6, s0
+          LOAD s8, s0
+          LOAD s7, s0
+          INPUT s1, 10
+          ADD s6, s1
+          COMPARE s1, s8
+          JUMP NC, SKIP1
+          LOAD s8, s1
+   SKIP1: 
+          COMPARE s1, s7
+          JUMP C, SKIP2
+          LOAD s7, s1
+   SKIP2: 
+          INPUT s2, 10
+          ADD s6, s2
+          COMPARE s2, s8
+          JUMP NC, SKIP3
+          LOAD s8, s2
+   SKIP3: 
+          COMPARE s2, s7
+          JUMP C, SKIP4
+          LOAD s7, s2
+   SKIP4: 
+          OUTPUT s0, 00
+          OUTPUT s1, 00
+          OUTPUT s2, 00
+          LOAD s4, 47'd
+          LOAD s9, 00
+    LOOP: 
+          INPUT s0, 10
+          ADD s6, s0
+          OUTPUT s0, 00
+          INPUT s5, 01
+          OUTPUT s5, 20
+          COMPARE s0, s7
+          JUMP C, CONTINUE
+          LOAD s7, s0
+CONTINUE: 
+          COMPARE s0, s8
+          JUMP C, LESS
+     END: 
+          SUB s4, 1'd
+          COMPARE s4, 00
+          JUMP NZ, LOOP
+          JUMP SEND
+    LESS: 
+          LOAD s8, s0
+          JUMP END
+    SEND: 
+          COMPARE s6, 50'd
+          JUMP C, DONE
+          ADD s9, 1'd
+          JUMP SEND
+    DONE: 
+          OUTPUT s9, 30
+          OUTPUT s7, 50
+          OUTPUT s8, 40
+   STUCC: 
+          JUMP STUCC
