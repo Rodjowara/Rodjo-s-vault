@@ -1,0 +1,20 @@
+# ==============================
+# Upute za pokretanje mikroservisa
+# ==============================
+
+# 1. Postavljanje Temperature mikroservisa
+kubectl apply -f config/temperature.yaml
+
+# 2. Postavljanje Humidity mikroservisa
+kubectl apply -f config/humidity.yaml
+
+# 3. Postavljanje Aggregator mikroservisa
+kubectl apply -f config/aggregator.yaml
+
+# 4. Provjera da su svi podovi pokrenuti
+kubectl get pods
+
+#Primjer GET zahtjeva za dohvaćanje agregiranih očitanja
+curl http://localhost:30080/aggregate
+
+

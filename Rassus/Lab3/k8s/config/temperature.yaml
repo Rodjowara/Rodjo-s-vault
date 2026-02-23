@@ -1,0 +1,66 @@
+# =========================
+# TEMPERATURE MICROSERVICE
+# =========================
+
+# ConfigMap – CSV datoteka
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: temperature-config
+data:
+  readings.csv: |
+    25,45
+    26,50
+    27,48
+    28,52
+    29,55
+---
+# Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: temperature-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: temperature
+  template:
+    metadata:
+      labels:
+        app: temperature
+    spec:
+      containers:
+        - name: temperature
+          image: temperature-miscroservice:0.0.1-SNAPSHOT
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+          resources:
+            requests:
+              memory: "512Mi"   # ostavljeno isto kao u tvom YAML-u
+              cpu: "250m"
+            limits:
+              memory: "768Mi"
+              cpu: "500m"
+          volumeMounts:
+            - name: config-volume
+              mountPath: /config
+      volumes:
+        - name: config-volume
+          configMap:
+            name: temperature-config
+---
+# Service (NodePort + DNS ime)
+apiVersion: v1
+kind: Service
+metadata:
+  name: temperature-service
+spec:
+  type: NodePort
+  selector:
+    app: temperature
+  ports:
+    - port: 8080
+      targetPort: 8080
+      nodePort: 30081   # NodePort dodan za testiranje s localhost

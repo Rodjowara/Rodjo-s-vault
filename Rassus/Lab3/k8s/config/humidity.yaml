@@ -1,0 +1,66 @@
+# =========================
+# HUMIDITY MICROSERVICE
+# =========================
+
+# ConfigMap – CSV datoteka
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: humidity-config
+data:
+  readings.csv: |
+    25,45
+    26,50
+    27,48
+    28,52
+    29,55
+---
+# Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: humidity-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: humidity
+  template:
+    metadata:
+      labels:
+        app: humidity
+    spec:
+      containers:
+        - name: humidity
+          image: humidity-microservice:0.0.1-SNAPSHOT
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+          resources:
+            requests:
+              memory: "512Mi"   # ostavljeno kao u tvom YAML-u
+              cpu: "250m"
+            limits:
+              memory: "768Mi"
+              cpu: "500m"
+          volumeMounts:
+            - name: config-volume
+              mountPath: /config
+      volumes:
+        - name: config-volume
+          configMap:
+            name: humidity-config
+---
+# Service (NodePort + DNS ime)
+apiVersion: v1
+kind: Service
+metadata:
+  name: humidity-service
+spec:
+  type: NodePort            # <-- dodano da možemo testirati s localhost
+  selector:
+    app: humidity
+  ports:
+    - port: 8080
+      targetPort: 8080
+      nodePort: 30082       # <-- port na hostu za curl test
