@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/ivrod/Documents/irg/irglab/build/CMakeFiles/cmake.verify_globs
+C:/Users/ivrod/Documents/irg/irglab/irgLab/dependencies/assimp/CMakeLists.txt
+C:/Users/ivrod/Documents/irg/irglab/irgLab/dependencies/assimp/assimp.pc.in
+C:/Users/ivrod/Documents/irg/irglab/irgLab/dependencies/assimp/cmake-modules/FindPkgMacros.cmake
+C:/Users/ivrod/Documents/irg/irglab/irgLab/dependencies/assimp/cmake-modules/PrecompiledHeader.cmake
+C:/Users/ivrod/Documents/irg/irglab/irgLab/dependencies/assimp/cmake-modules/assimp-plain-config.cmake.in
+C:/Users/ivrod/Documents/irg/irglab/irgLab/dependencies/assimp/include/assimp/config.h.in
+C:/Users/ivrod/Documents/irg/irglab/irgLab/dependencies/assimp/include/assimp/revision.h.in

@@ -1,0 +1,76 @@
+^C:\USERS\IVROD\DOCUMENTS\IRG\IRGLAB\BUILD\CMAKEFILES\AF55C895D0F27AD65BDED7546D63FC2B\VJEZBA3_ASSETS.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/shaders
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/shaders/shader.frag C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/shaders/shader.frag
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/shaders
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/shaders/shader.vert C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/shaders/shader.vert
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/shaders
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/shaders/square.frag C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/shaders/square.frag
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/shaders
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/shaders/square.vert C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/shaders/square.vert
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/resources/.keep C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/.keep
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/resources/glava/glava.mtl C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/glava.mtl
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/resources/glava/glava.obj C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/glava.obj
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/resources/glava/textures/Light.jpg C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures/Light.jpg
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/resources/glava/textures/_Ao.png C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures/_Ao.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/resources/glava/textures/_Diffuse.png C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures/_Diffuse.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/resources/glava/textures/_Glossiness.png C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures/_Glossiness.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/resources/glava/textures/_Height.png C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures/_Height.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/resources/glava/textures/_Normal.png C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures/_Normal.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba3/resources/glava/textures/_Specular.png C:/Users/ivrod/Documents/irg/irglab/build/vjezba3/Debug/resources/glava/textures/_Specular.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba3/vjezba3_assets.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IVROD\DOCUMENTS\IRG\IRGLAB\IRGLAB\VJEZBA3\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ivrod/Documents/irg/irglab -BC:/Users/ivrod/Documents/irg/irglab/build --check-stamp-file C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba3/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

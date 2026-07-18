@@ -1,0 +1,16 @@
+﻿  Syncing assets for primjerASSIMP
+  Building Custom Rule C:/Users/ivrod/Documents/irg/irglab/irgLab/primjerASSIMP/CMakeLists.txt
+  main.cpp
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerASSIMP\sources\main.cpp(61,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerASSIMP\sources\main.cpp(67,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerASSIMP\sources\main.cpp(76,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerASSIMP\sources\main.cpp(85,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerASSIMP\sources\main.cpp(87,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerASSIMP\sources\main.cpp(94,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerASSIMP\sources\main.cpp(103,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerASSIMP\sources\main.cpp(110,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerASSIMP\sources\main.cpp(126,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerASSIMP\sources\main.cpp(27,14): warning C4100: 'argc': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerASSIMP\sources\main.cpp(155,14): warning C4101: 'ambientColor': unreferenced local variable
+  glad.c
+  primjerASSIMP.vcxproj -> C:\Users\ivrod\Documents\irg\irglab\build\primjerASSIMP\Debug\primjerASSIMP.exe

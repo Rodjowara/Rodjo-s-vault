@@ -1,0 +1,7 @@
+﻿  Syncing assets for primjerGLM
+  Building Custom Rule C:/Users/ivrod/Documents/irg/irglab/irgLab/primjerGLM/CMakeLists.txt
+  main.cpp
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerGLM\sources\main.cpp(22,27): warning C4100: 'argv': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerGLM\sources\main.cpp(22,14): warning C4100: 'argc': unreferenced parameter
+  glad.c
+  primjerGLM.vcxproj -> C:\Users\ivrod\Documents\irg\irglab\build\primjerGLM\Debug\primjerGLM.exe

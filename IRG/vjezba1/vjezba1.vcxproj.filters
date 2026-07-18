@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glad\src\glad.c">
+      <Filter>Dependencies\glad\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\headers\Grafika.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\headers\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba1\vjezba1_assets.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\shaders\shader.frag">
+      <Filter>Shader Files</Filter>
+    </Content>
+    <Content Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\shaders\shader.vert">
+      <Filter>Shader Files</Filter>
+    </Content>
+    <Content Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\resources\.keep">
+      <Filter>Resource Files</Filter>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivrod\Documents\irg\irglab\build\CMakeFiles\0c745a8f9034c36d96a5e56b4c9f6713\vjezba1_assets.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7D1BBAA0-D990-356C-BE99-CE5A7FA00FCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{08342EFD-C75A-3E6F-8A07-0B18666AF098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\glad">
+      <UniqueIdentifier>{AD2EC6F6-7684-35BB-AAEA-C71D872214B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\glad\src">
+      <UniqueIdentifier>{6BA181BD-252D-312C-B02D-7370B8BE8D33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6735AC24-B5B5-3C39-9477-80CF577B816F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0A5B52AD-5334-3D94-9B42-9B826882BD18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{CC6EA879-5CB1-3C07-81AA-621E8E89B77B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9BEC4273-ED9C-38EB-8049-01ADC96F749E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+^C:\USERS\IVROD\DOCUMENTS\IRG\IRGLAB\BUILD\CMAKEFILES\0C745A8F9034C36D96A5E56B4C9F6713\VJEZBA1_ASSETS.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba1/Debug/shaders
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba1/shaders/shader.frag C:/Users/ivrod/Documents/irg/irglab/build/vjezba1/Debug/shaders/shader.frag
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba1/Debug/shaders
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba1/shaders/shader.vert C:/Users/ivrod/Documents/irg/irglab/build/vjezba1/Debug/shaders/shader.vert
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba1/Debug/resources
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba1/resources/.keep C:/Users/ivrod/Documents/irg/irglab/build/vjezba1/Debug/resources/.keep
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba1/vjezba1_assets.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IVROD\DOCUMENTS\IRG\IRGLAB\IRGLAB\VJEZBA1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ivrod/Documents/irg/irglab -BC:/Users/ivrod/Documents/irg/irglab/build --check-stamp-file C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

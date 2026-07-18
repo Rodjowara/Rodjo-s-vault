@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5b\vjezba5b_placeholder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glad\src\glad.c">
+      <Filter>Dependencies\glad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGLM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5b\vjezba5b_assets.stamp" />
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGLM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba5b\resources\.keep">
+      <Filter>Resource Files</Filter>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivrod\Documents\irg\irglab\build\CMakeFiles\1b5cfc1ae5e85e6f63f4fb3aac2f6bbf\vjezba5b_assets.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba5b\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7D1BBAA0-D990-356C-BE99-CE5A7FA00FCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{08342EFD-C75A-3E6F-8A07-0B18666AF098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\glad">
+      <UniqueIdentifier>{AD2EC6F6-7684-35BB-AAEA-C71D872214B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\glad\src">
+      <UniqueIdentifier>{6BA181BD-252D-312C-B02D-7370B8BE8D33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0A5B52AD-5334-3D94-9B42-9B826882BD18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9BEC4273-ED9C-38EB-8049-01ADC96F749E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5676d0d8-b98c-4d49-9f93-25bb2add272f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{3625c5bd-8715-4e68-9535-5c0c7e3488ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="fragment.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+﻿  Transform.cpp
+  MyGLM.cpp
+  vjezba5a_placeholder.cpp
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5a\vjezba5a_placeholder.cpp(37,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5a\vjezba5a_placeholder.cpp(38,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5a\vjezba5a_placeholder.cpp(42,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5a\vjezba5a_placeholder.cpp(43,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5a\vjezba5a_placeholder.cpp(45,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5a\vjezba5a_placeholder.cpp(46,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5a\vjezba5a_placeholder.cpp(32,33): warning C4100: 'window': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5a\vjezba5a_placeholder.cpp(55,14): warning C4100: 'argc': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5a\vjezba5a_placeholder.cpp(207,25): warning C4189: 'controlledObject': local variable is initialized but not referenced
+  Camera.cpp
+  Mesh.cpp
+  Object.cpp
+  Renderer.cpp
+  Shader.cpp
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5a\Shader.cpp(61,7): warning C4101: 'infoLog': unreferenced local variable
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba5a\Shader.cpp(60,6): warning C4101: 'success': unreferenced local variable
+  Generating Code...
+  glad.c
+  vjezba5a.vcxproj -> C:\Users\ivrod\Documents\irg\irglab\build\vjezba5a\Debug\vjezba5a.exe

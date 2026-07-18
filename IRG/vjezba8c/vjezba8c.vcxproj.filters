@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba8c\vjezba8c_placeholder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glad\src\glad.c">
+      <Filter>Dependencies\glad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba8c\vjezba8c_assets.stamp" />
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba8c\resources\.keep">
+      <Filter>Resource Files</Filter>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivrod\Documents\irg\irglab\build\CMakeFiles\1e8c8c2e92a21dcb11dc1e5e5848e607\vjezba8c_assets.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba8c\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7D1BBAA0-D990-356C-BE99-CE5A7FA00FCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{08342EFD-C75A-3E6F-8A07-0B18666AF098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\glad">
+      <UniqueIdentifier>{AD2EC6F6-7684-35BB-AAEA-C71D872214B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\glad\src">
+      <UniqueIdentifier>{6BA181BD-252D-312C-B02D-7370B8BE8D33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0A5B52AD-5334-3D94-9B42-9B826882BD18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9BEC4273-ED9C-38EB-8049-01ADC96F749E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a7d5ae28-a13c-44ad-accb-5f1f7c37f2f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{eadbebc6-28af-4cfa-800e-d936728f69fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertexScene.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="phong.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="phong.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="fragment.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="fragment.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="projection.geom">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="scene.geom">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="vertex.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="vertexProjection.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

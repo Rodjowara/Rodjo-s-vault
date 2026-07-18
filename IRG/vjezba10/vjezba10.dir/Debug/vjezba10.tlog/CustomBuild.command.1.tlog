@@ -1,0 +1,24 @@
+^C:\USERS\IVROD\DOCUMENTS\IRG\IRGLAB\BUILD\CMAKEFILES\08FB1F27A4819CF10B0FAB4DA0EE8758\VJEZBA10_ASSETS.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba10/Debug/resources
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba10/resources/.keep C:/Users/ivrod/Documents/irg/irglab/build/vjezba10/Debug/resources/.keep
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba10/vjezba10_assets.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IVROD\DOCUMENTS\IRG\IRGLAB\IRGLAB\VJEZBA10\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ivrod/Documents/irg/irglab -BC:/Users/ivrod/Documents/irg/irglab/build --check-stamp-file C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba10/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

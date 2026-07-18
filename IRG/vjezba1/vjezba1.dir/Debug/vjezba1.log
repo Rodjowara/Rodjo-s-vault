@@ -1,0 +1,120 @@
+﻿  Grafika.cpp
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(12,50): warning C4458: declaration of 'window' hides class member
+      C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\headers\Grafika.h(37,21):
+      see declaration of 'Grafika::window'
+  
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(15,66): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(15,66): warning C4244:         with
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(15,66): warning C4244:         [
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(15,66): warning C4244:             T=float
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(15,66): warning C4244:         ]
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(15,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(15,43): warning C4244:         with
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(15,43): warning C4244:         [
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(15,43): warning C4244:             T=float
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(15,43): warning C4244:         ]
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(17,66): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(17,66): warning C4244:         with
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(17,66): warning C4244:         [
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(17,66): warning C4244:             T=float
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(17,66): warning C4244:         ]
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(17,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(17,43): warning C4244:         with
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(17,43): warning C4244:         [
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(17,43): warning C4244:             T=float
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(17,43): warning C4244:         ]
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(12,86): warning C4100: 'mods': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(12,50): warning C4100: 'window': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(21,53): warning C4458: declaration of 'window' hides class member
+      C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\headers\Grafika.h(37,21):
+      see declaration of 'Grafika::window'
+  
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(21,53): warning C4100: 'window': unreferenced parameter
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\xutility(5465,27): warning C4244: '=': conversion from 'const _Ty' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\xutility(5465,27): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\xutility(5465,27): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\xutility(5465,27): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\xutility(5465,27): warning C4244:         ]
+  (compiling source file '../../../irgLab/vjezba1/sources/Grafika.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\xutility(5465,27):
+      the template instantiation context (the oldest one first) is
+          C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Grafika.cpp(160,7):
+          see reference to function template instantiation '_OutIt *std::fill_n<float*,int,int>(_OutIt,const _Diff,const _Ty &)' being compiled
+          with
+          [
+              _OutIt=float *,
+              _Diff=int,
+              _Ty=int
+          ]
+  
+  Shader.cpp
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp(12,128): warning C4840: non-portable use of class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' as an argument to a variadic function
+      C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp(12,128):
+      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' is non-trivial
+      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\xstring(766,5):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string'
+      C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp(12,128):
+      the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\xstring(589,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp(12,20): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp(19,127): warning C4840: non-portable use of class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' as an argument to a variadic function
+      C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp(19,127):
+      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' is non-trivial
+      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\xstring(766,5):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string'
+      C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp(19,127):
+      the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\xstring(589,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp(19,20): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp(61,7): warning C4101: 'infoLog': unreferenced local variable
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp(60,6): warning C4101: 'success': unreferenced local variable
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp(137,7): warning C4101: 'infoLog': unreferenced local variable
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\Shader.cpp(136,6): warning C4101: 'success': unreferenced local variable
+  main.cpp
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\main.cpp(72,6): warning C4459: declaration of 'size' hides global declaration
+      C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\main.cpp(15,21):
+      see declaration of 'size'
+  
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\main.cpp(72,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\main.cpp(82,14): warning C4100: 'argc': unreferenced parameter
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,61): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,61): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,61): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,61): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,61): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,61): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,61): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,61): warning C4244:             _Ty2=int
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,61): warning C4244:         ]
+  (compiling source file '../../../irgLab/vjezba1/sources/main.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,61):
+      the template instantiation context (the oldest one first) is
+          C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\main.cpp(115,35):
+          see reference to function template instantiation 'std::pair<int,int>::pair<int,double,0>(std::pair<int,double> &&) noexcept' being compiled
+              C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\main.cpp(115,20):
+              see the first reference to 'std::pair<int,int>::pair' in 'main'
+  
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,16): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,16): warning C4244:             _Ty1=int
+C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,16): warning C4244:         ]
+  (compiling source file '../../../irgLab/vjezba1/sources/main.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Insiders\VC\Tools\MSVC\14.50.35717\include\utility(303,16):
+      the template instantiation context (the oldest one first) is
+          C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\main.cpp(116,35):
+          see reference to function template instantiation 'std::pair<int,int>::pair<double,double,0>(std::pair<double,double> &&) noexcept' being compiled
+              C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba1\sources\main.cpp(116,20):
+              see the first reference to 'std::pair<int,int>::pair' in 'main'
+  
+  Generating Code...
+  glad.c
+  vjezba1.vcxproj -> C:\Users\ivrod\Documents\irg\irglab\build\vjezba1\Debug\vjezba1.exe

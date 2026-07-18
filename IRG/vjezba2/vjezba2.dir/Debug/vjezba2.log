@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba2\sources\main.cpp(77,9): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba2\sources\main.cpp(90,9): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba2\sources\main.cpp(116,10): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba2\sources\main.cpp(148,9): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba2\sources\main.cpp(231,14): warning C4100: 'argc': unreferenced parameter
+  vjezba2.vcxproj -> C:\Users\ivrod\Documents\irg\irglab\build\vjezba2\Debug\vjezba2.exe

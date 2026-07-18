@@ -1,0 +1,7 @@
+﻿  vjezba4_placeholder.cpp
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba4\vjezba4_placeholder.cpp(32,14): warning C4100: 'argc': unreferenced parameter
+  Object.cpp
+  Renderer.cpp
+  Transform.cpp
+  Generating Code...
+  vjezba4.vcxproj -> C:\Users\ivrod\Documents\irg\irglab\build\vjezba4\Debug\vjezba4.exe

@@ -1,0 +1,17 @@
+﻿  Curve.cpp
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba7\Curve.cpp(66,49): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba7\Curve.cpp(73,51): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba7\Curve.cpp(80,51): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba7\Curve.cpp(94,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba7\Curve.cpp(125,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba7\Curve.cpp(130,15): warning C4458: declaration of 't' hides class member
+      C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba7\Curve.h(14,8):
+      see declaration of 'Curve::t'
+  
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba7\Curve.cpp(135,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba7\Curve.cpp(151,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba7\Curve.cpp(163,15): warning C4458: declaration of 't' hides class member
+      C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba7\Curve.h(14,8):
+      see declaration of 'Curve::t'
+  
+  vjezba7.vcxproj -> C:\Users\ivrod\Documents\irg\irglab\build\vjezba7\Debug\vjezba7.exe

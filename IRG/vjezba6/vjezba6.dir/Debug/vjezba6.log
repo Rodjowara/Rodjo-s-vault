@@ -1,0 +1,11 @@
+﻿  vjezba6_placeholder.cpp
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba6\vjezba6_placeholder.cpp(37,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba6\vjezba6_placeholder.cpp(38,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba6\vjezba6_placeholder.cpp(42,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba6\vjezba6_placeholder.cpp(43,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba6\vjezba6_placeholder.cpp(45,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba6\vjezba6_placeholder.cpp(46,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba6\vjezba6_placeholder.cpp(32,33): warning C4100: 'window': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba6\vjezba6_placeholder.cpp(55,14): warning C4100: 'argc': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba6\vjezba6_placeholder.cpp(214,25): warning C4189: 'controlledObject': local variable is initialized but not referenced
+  vjezba6.vcxproj -> C:\Users\ivrod\Documents\irg\irglab\build\vjezba6\Debug\vjezba6.exe

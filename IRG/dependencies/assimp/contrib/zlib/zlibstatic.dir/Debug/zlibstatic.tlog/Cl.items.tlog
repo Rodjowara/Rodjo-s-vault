@@ -1,0 +1,15 @@
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\adler32.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\adler32.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\compress.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\compress.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\crc32.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\crc32.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\deflate.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\deflate.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\gzclose.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\gzclose.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\gzlib.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\gzlib.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\gzread.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\gzread.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\gzwrite.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\gzwrite.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\inflate.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\inflate.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\infback.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\infback.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\inftrees.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\inftrees.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\inffast.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\inffast.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\trees.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\trees.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\uncompr.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\uncompr.obj
+C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\contrib\zlib\zutil.c;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.dir\Debug\zutil.obj

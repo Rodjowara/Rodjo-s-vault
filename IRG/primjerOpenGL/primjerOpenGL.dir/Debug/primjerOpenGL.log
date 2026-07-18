@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerOpenGL\sources\main.cpp(53,45): warning C4100: 'window': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerOpenGL\sources\main.cpp(99,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerOpenGL\sources\main.cpp(99,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerOpenGL\sources\main.cpp(99,15): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerOpenGL\sources\main.cpp(175,4): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerOpenGL\sources\main.cpp(175,10): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerOpenGL\sources\main.cpp(176,5): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerOpenGL\sources\main.cpp(176,10): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerOpenGL\sources\main.cpp(177,9): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\ivrod\Documents\irg\irglab\irgLab\primjerOpenGL\sources\main.cpp(69,14): warning C4100: 'argc': unreferenced parameter
+  primjerOpenGL.vcxproj -> C:\Users\ivrod\Documents\irg\irglab\build\primjerOpenGL\Debug\primjerOpenGL.exe

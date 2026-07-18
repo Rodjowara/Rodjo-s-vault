@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5CAE6053-0006-38FC-B475-C17C66AA4C2C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>vjezba4</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ivrod\Documents\irg\irglab\build\vjezba4\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vjezba4.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vjezba4</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ivrod\Documents\irg\irglab\build\vjezba4\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vjezba4.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vjezba4</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ivrod\Documents\irg\irglab\build\vjezba4\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vjezba4.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vjezba4</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ivrod\Documents\irg\irglab\build\vjezba4\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vjezba4.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vjezba4</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\headers;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\assimp\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glad\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glfw\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glm;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\stb;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\headers;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\assimp\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glad\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glfw\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glm;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\stb;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\headers;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\assimp\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glad\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glfw\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glm;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\stb;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\dependencies\assimp\lib\Debug\assimp-vc145-mtd.lib;..\dependencies\glfw\src\Debug\glfw3d.lib;..\dependencies\assimp\contrib\zlib\Debug\zlibstaticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba4/Debug/vjezba4.lib</ImportLibrary>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/ivrod/Documents/irg/irglab/build/vjezba4/Debug/vjezba4.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\headers;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\assimp\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glad\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glfw\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glm;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\stb;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\headers;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\assimp\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glad\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glfw\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glm;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\stb;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\headers;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\assimp\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glad\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glfw\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glm;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\stb;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\dependencies\assimp\lib\Release\assimp-vc145-mt.lib;..\dependencies\glfw\src\Release\glfw3.lib;..\dependencies\assimp\contrib\zlib\Release\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba4/Release/vjezba4.lib</ImportLibrary>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/ivrod/Documents/irg/irglab/build/vjezba4/Release/vjezba4.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\headers;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\assimp\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glad\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glfw\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glm;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\stb;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\headers;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\assimp\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glad\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glfw\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glm;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\stb;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\headers;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\assimp\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glad\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glfw\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glm;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\stb;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\dependencies\assimp\lib\MinSizeRel\assimp-vc145-mt.lib;..\dependencies\glfw\src\MinSizeRel\glfw3.lib;..\dependencies\assimp\contrib\zlib\MinSizeRel\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba4/MinSizeRel/vjezba4.lib</ImportLibrary>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/ivrod/Documents/irg/irglab/build/vjezba4/MinSizeRel/vjezba4.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\headers;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\assimp\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glad\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glfw\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glm;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\stb;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR="C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;PROJECT_SOURCE_DIR=\"C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\headers;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\assimp\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glad\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glfw\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glm;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\stb;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\headers;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\assimp\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glad\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glfw\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\glm;C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\..\dependencies\stb;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\..\include;C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\dependencies\assimp\lib\RelWithDebInfo\assimp-vc145-mt.lib;..\dependencies\glfw\src\RelWithDebInfo\glfw3.lib;..\dependencies\assimp\contrib\zlib\RelWithDebInfo\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba4/RelWithDebInfo/vjezba4.lib</ImportLibrary>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/ivrod/Documents/irg/irglab/build/vjezba4/RelWithDebInfo/vjezba4.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivrod\Documents\irg\irglab\build\CMakeFiles\1d22e996ff61c688d7b3581de50e99cb\vjezba4_assets.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Syncing assets for vjezba4</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba4/Debug/resources
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4/resources/.keep C:/Users/ivrod/Documents/irg/irglab/build/vjezba4/Debug/resources/.keep
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba4/vjezba4_assets.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\resources\.keep;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba4\vjezba4_assets.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Syncing assets for vjezba4</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba4/Release/resources
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4/resources/.keep C:/Users/ivrod/Documents/irg/irglab/build/vjezba4/Release/resources/.keep
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba4/vjezba4_assets.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\resources\.keep;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba4\vjezba4_assets.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Syncing assets for vjezba4</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba4/MinSizeRel/resources
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4/resources/.keep C:/Users/ivrod/Documents/irg/irglab/build/vjezba4/MinSizeRel/resources/.keep
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba4/vjezba4_assets.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\resources\.keep;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba4\vjezba4_assets.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Syncing assets for vjezba4</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/ivrod/Documents/irg/irglab/build/vjezba4/RelWithDebInfo/resources
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4/resources/.keep C:/Users/ivrod/Documents/irg/irglab/build/vjezba4/RelWithDebInfo/resources/.keep
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba4/vjezba4_assets.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\resources\.keep;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba4\vjezba4_assets.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ivrod/Documents/irg/irglab -BC:/Users/ivrod/Documents/irg/irglab/build --check-stamp-file C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba4/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ivrod\Documents\irg\irglab\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ivrod/Documents/irg/irglab -BC:/Users/ivrod/Documents/irg/irglab/build --check-stamp-file C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba4/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ivrod\Documents\irg\irglab\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ivrod/Documents/irg/irglab -BC:/Users/ivrod/Documents/irg/irglab/build --check-stamp-file C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba4/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ivrod\Documents\irg\irglab\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/ivrod/Documents/irg/irglab/irgLab/vjezba4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ivrod/Documents/irg/irglab -BC:/Users/ivrod/Documents/irg/irglab/build --check-stamp-file C:/Users/ivrod/Documents/irg/irglab/build/irgLab/vjezba4/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ivrod\Documents\irg\irglab\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba4\vjezba4_placeholder.cpp" />
+    <ClCompile Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\dependencies\glad\src\glad.c" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MyGLM.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MyGLM.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Transform.h" />
+    <Content Include="C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba4\resources\.keep">
+      <TargetPath>resources\.keep</TargetPath>
+    </Content>
+    <ClInclude Include="C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba4\vjezba4_assets.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="vertex.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ivrod\Documents\irg\irglab\build\ZERO_CHECK.vcxproj">
+      <Project>{22F4B3E6-A91F-30E3-BE19-4821715D5583}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\code\assimp.vcxproj">
+      <Project>{D36CE43B-8D5C-367E-9E88-D0CFC147FF31}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\glfw\src\glfw.vcxproj">
+      <Project>{1D0A958B-C1A2-3DCE-B6B6-17C0F3217C96}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ivrod\Documents\irg\irglab\build\irgLab\dependencies\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{78FB1FC0-5048-3CC2-903B-A1F0770796D6}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment.glsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

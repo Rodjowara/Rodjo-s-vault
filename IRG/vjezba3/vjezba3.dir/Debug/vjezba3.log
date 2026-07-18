@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba3\sources\main.cpp(33,78): warning C4100: 'mods': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba3\sources\main.cpp(33,52): warning C4100: 'scancode': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba3\sources\main.cpp(33,31): warning C4100: 'window': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba3\sources\main.cpp(73,37): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba3\sources\main.cpp(53,69): warning C4100: 'mods': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba3\sources\main.cpp(93,43): warning C4100: 'window': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba3\sources\main.cpp(123,44): warning C4100: 'window': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba3\sources\main.cpp(216,54): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba3\sources\main.cpp(129,14): warning C4100: 'argc': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\irgLab\vjezba3\sources\main.cpp(208,15): warning C4189: 'deltaTime': local variable is initialized but not referenced
+  vjezba3.vcxproj -> C:\Users\ivrod\Documents\irg\irglab\build\vjezba3\Debug\vjezba3.exe

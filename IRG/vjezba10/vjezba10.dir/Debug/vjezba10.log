@@ -1,0 +1,14 @@
+﻿  vjezba10_placeholder.cpp
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba10\vjezba10_placeholder.cpp(46,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba10\vjezba10_placeholder.cpp(47,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba10\vjezba10_placeholder.cpp(51,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba10\vjezba10_placeholder.cpp(52,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba10\vjezba10_placeholder.cpp(54,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba10\vjezba10_placeholder.cpp(55,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba10\vjezba10_placeholder.cpp(41,33): warning C4100: 'window': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba10\vjezba10_placeholder.cpp(254,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba10\vjezba10_placeholder.cpp(64,14): warning C4100: 'argc': unreferenced parameter
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba10\vjezba10_placeholder.cpp(308,23): warning C4101: 'ambientColor': unreferenced local variable
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba10\vjezba10_placeholder.cpp(371,25): warning C4189: 'controlledObject': local variable is initialized but not referenced
+C:\Users\ivrod\Documents\irg\irglab\build\irgLab\vjezba10\vjezba10_placeholder.cpp(288,1): warning C4701: potentially uninitialized local variable 'format' used
+  vjezba10.vcxproj -> C:\Users\ivrod\Documents\irg\irglab\build\vjezba10\Debug\vjezba10.exe
