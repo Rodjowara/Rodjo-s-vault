@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "author": "Hrvoje Mlinaric",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 144,
+      "left": 72.04,
+      "attrs": { "builder": "esp-idf" }
+    },
+    {
+      "type": "wokwi-membrane-keypad",
+      "id": "keypad1",
+      "top": -107.6,
+      "left": -287.7,
+      "attrs": { "columns": "3" }
+    },
+    {
+      "type": "wokwi-led-bar-graph",
+      "id": "bargraph1",
+      "top": 225.6,
+      "left": 283.2,
+      "attrs": { "color": "lime" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 234.35,
+      "left": 220.8,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 243.95,
+      "left": 220.8,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": 253.55,
+      "left": 220.8,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r4",
+      "top": 263.15,
+      "left": 220.8,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r5",
+      "top": 272.75,
+      "left": 220.8,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r6",
+      "top": 282.35,
+      "left": 220.8,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r7",
+      "top": 291.95,
+      "left": 220.8,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r8",
+      "top": 301.55,
+      "left": 220.8,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r9",
+      "top": 224.75,
+      "left": 220.8,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r10",
+      "top": 311.15,
+      "left": 220.8,
+      "attrs": { "value": "330" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "keypad1:R1", "esp:12", "#8f4814", [ "v0" ] ],
+    [ "keypad1:R2", "esp:14", "red", [ "v0" ] ],
+    [ "keypad1:R3", "esp:25", "orange", [ "v38.4", "h220.75", "v-19.2" ] ],
+    [ "keypad1:R4", "esp:33", "gold", [ "v28.8", "h201.65", "v-19.2" ] ],
+    [ "keypad1:C1", "esp:32", "blue", [ "v19.2", "h172.7", "v-19.2", "h9.6" ] ],
+    [
+      "keypad1:C2",
+      "esp:27",
+      "violet",
+      [ "v9.6", "h115.2", "v67.2", "h105.6", "v-38.4", "h9.6" ]
+    ],
+    [ "esp:26", "keypad1:C3", "green", [ "h-28.65", "v-38.4", "h-172.8", "v9.6" ] ],
+    [ "esp:GND.3", "bargraph1:C1", "black", [ "h9.6", "v-28.8", "h114.98" ] ],
+    [ "bargraph1:C1", "bargraph1:C2", "green", [ "v0" ] ],
+    [ "bargraph1:C2", "bargraph1:C3", "green", [ "h0" ] ],
+    [ "bargraph1:C3", "bargraph1:C4", "green", [ "h0" ] ],
+    [ "bargraph1:C4", "bargraph1:C5", "green", [ "h0" ] ],
+    [ "bargraph1:C5", "bargraph1:C6", "green", [ "h0" ] ],
+    [ "bargraph1:C6", "bargraph1:C7", "green", [ "h0" ] ],
+    [ "bargraph1:C7", "bargraph1:C8", "green", [ "h0" ] ],
+    [ "bargraph1:C8", "bargraph1:C9", "green", [ "h0" ] ],
+    [ "bargraph1:C9", "bargraph1:C10", "green", [ "h0" ] ],
+    [ "esp:19", "r1:1", "green", [ "h0" ] ],
+    [ "r1:2", "bargraph1:A2", "green", [ "v0" ] ],
+    [ "esp:21", "r9:1", "green", [ "h0" ] ],
+    [ "r9:2", "bargraph1:A1", "green", [ "v0" ] ],
+    [ "esp:18", "r2:1", "green", [ "h0" ] ],
+    [ "r2:2", "bargraph1:A3", "green", [ "v0" ] ],
+    [ "bargraph1:A4", "r3:2", "green", [ "h0" ] ],
+    [ "bargraph1:A5", "r4:2", "green", [ "h0" ] ],
+    [ "bargraph1:A6", "r5:2", "green", [ "h0" ] ],
+    [ "bargraph1:A7", "r6:2", "green", [ "h0" ] ],
+    [ "bargraph1:A8", "r7:2", "green", [ "h0" ] ],
+    [ "bargraph1:A9", "r8:2", "green", [ "h0" ] ],
+    [ "bargraph1:A10", "r10:2", "green", [ "h0" ] ],
+    [ "esp:15", "r10:1", "green", [ "v0" ] ],
+    [ "esp:4", "r6:1", "green", [ "h0" ] ],
+    [ "esp:16", "r5:1", "green", [ "h0" ] ],
+    [ "esp:17", "r4:1", "green", [ "h0" ] ],
+    [ "esp:5", "r3:1", "green", [ "h0" ] ],
+    [ "esp:22", "r8:1", "green", [ "h19.2", "v115.2" ] ],
+    [ "esp:23", "r7:1", "green", [ "h28.8", "v115.2" ] ]
+  ],
+  "dependencies": {}
+}

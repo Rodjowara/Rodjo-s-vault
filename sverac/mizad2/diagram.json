@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "author": "Hrvoje Mlinaric",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 144, "left": 72.04, "attrs": {} },
+    {
+      "type": "wokwi-membrane-keypad",
+      "id": "keypad1",
+      "top": -107.6,
+      "left": -287.7,
+      "attrs": { "columns": "3" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "keypad1:R1", "esp:12", "#8f4814", [ "v0" ] ],
+    [ "keypad1:R2", "esp:14", "red", [ "v0" ] ],
+    [ "keypad1:R3", "esp:25", "orange", [ "v38.4", "h220.75", "v-19.2" ] ],
+    [ "keypad1:R4", "esp:33", "gold", [ "v28.8", "h201.65", "v-19.2" ] ],
+    [ "keypad1:C1", "esp:32", "blue", [ "v19.2", "h172.7", "v-19.2", "h9.6" ] ],
+    [
+      "keypad1:C2",
+      "esp:27",
+      "violet",
+      [ "v9.6", "h115.2", "v67.2", "h105.6", "v-38.4", "h9.6" ]
+    ],
+    [ "keypad1:C3", "esp:26", "green", [ "h38.5", "v-19.2", "h163.2", "v48" ] ]
+  ],
+  "dependencies": {}
+}
